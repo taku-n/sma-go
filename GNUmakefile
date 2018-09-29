@@ -13,4 +13,3 @@ sma-go.dll: sma-go.def sma-go.lib
 
 sma-go.lib: sma-go.go
 	go build -buildmode=c-archive -o sma-go.lib sma-go.go
-	@rm sma-go.h

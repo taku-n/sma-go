@@ -1,0 +1,7 @@
+; DLL としてエクスポートしたい関数を示すためのファイル
+
+LIBRARY sma-go
+
+EXPORTS
+;	sma_go
+	add

@@ -67,6 +67,8 @@ extern "C" {
 
 extern GoInt add(GoInt p0, GoInt p1);
 
+extern int sum(int* p0, int p1);
+
 #ifdef __cplusplus
 }
 #endif

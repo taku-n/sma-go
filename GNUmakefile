@@ -1,4 +1,4 @@
-MEC := metaeditor64-1816.exe
+MEC := metaeditor64.exe
 # MetaEditor Compiler
 
 sma-go.ex5: sma-go.mq5 sma-go.dll

@@ -2,6 +2,7 @@
 //void sma(const double &CLOSE[], const int PREV_CALCULATED,
 //		const int RATES_TOTAL, const int PERIOD, double &sma[]);
 int add(int x, int y);
+int sum(int &a[], int n);
 #import
 
 input int PERIOD = 12;
@@ -21,9 +22,12 @@ double sma[];
 
 int OnInit()
 {
+	int a[] = {2, 3, 5, 7};
+
 	SetIndexBuffer(0, sma, INDICATOR_DATA);
 
 	Print(add(2, 3));
+	Print(sum(a, 4));
 
 	return INIT_SUCCEEDED;
 }
